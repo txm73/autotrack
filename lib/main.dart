@@ -49,7 +49,7 @@ class AutoTrackApp extends StatelessWidget {
           seedColor: seedColor,
           brightness: Brightness.light,
         ),
-        cardTheme: const CardTheme(
+        cardTheme: const CardThemeData(
           elevation: 1,
           surfaceTintColor: Colors.transparent,
         ),
@@ -63,7 +63,7 @@ class AutoTrackApp extends StatelessWidget {
           seedColor: seedColor,
           brightness: Brightness.dark,
         ),
-        cardTheme: const CardTheme(
+        cardTheme: const CardThemeData(
           elevation: 2,
           surfaceTintColor: Colors.transparent,
         ),
